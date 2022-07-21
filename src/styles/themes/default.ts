@@ -1,3 +1,4 @@
+// colocarndo variáveis/objetos/propriedades em formato JS
 export const defaultTheme = {
   white: '#fff',
 

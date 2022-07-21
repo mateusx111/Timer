@@ -6,7 +6,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
 
   nav {
-    display: flex;
+    display: flex; /*o padrão do flex direction ja é row, um do lado do outro */
     gap: 0.5rem; /*gap gera um espaçamento estre os elementos*/
 
     a {
