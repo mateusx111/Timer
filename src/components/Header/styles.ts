@@ -19,10 +19,12 @@ export const HeaderContainer = styled.header`
 
       color: ${(props) => props.theme['gray-100']};
 
-      border-top: 3px solid transparent;
-      border-bottom: 3px solid transparent;
+      border-top: 3px solid transparent; /* Borda transparent para centralizar a pocição dos icones */
+      border-bottom: 3px solid transparent; /* Adicionar previamente a borda mesmo que não aprereça
+      para quando o hover aparecer jé ter uma borda antes e ja estar levemente posicionado "para cima"  */
 
       &:hover {
+        /* ao passar o maou por cima mostrar border-bottom */
         border-bottom: 3px solid ${(props) => props.theme['green-500']};
       }
 

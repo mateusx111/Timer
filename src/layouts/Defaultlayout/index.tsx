@@ -7,7 +7,9 @@ export function DefaultLayout() {
   return (
     <LayoutContainer>
       <Header />
-      <Outlet />
+      <Outlet />{' '}
+      {/* usando o outlet o react router dom saberá onde tem que posicionar
+       o conteúdo que é específico de uma página */}
     </LayoutContainer>
   )
 }
